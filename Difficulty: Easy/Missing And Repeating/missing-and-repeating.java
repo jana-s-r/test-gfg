@@ -11,7 +11,6 @@ class Solution {
             }
         }
         
-        Arrays.sort(arr);
         
         for(int i=1;i<=arr.length;i++){
             if(!set.contains(i)) {
@@ -19,19 +18,6 @@ class Solution {
             }
         }
         
-        //     for(int k=1;k<=arr.length;k++){
-        //         boolean b =false;
-        //         for(int i=0;i<arr.length;i++){
-        //             if(k==arr[i]) {
-        //                 b=true;
-        //                 break;
-        //             }
-        //         }
-        
-        // if(!b){
-        //     res.add(k);
-        // }
-        // }
         return res;
     }
 }
